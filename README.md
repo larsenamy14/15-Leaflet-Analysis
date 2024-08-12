@@ -1,5 +1,7 @@
 # 15-Leaflet-Analysis
 
+![image](https://github.com/user-attachments/assets/440d3108-b925-4282-8910-62189532e1f9)
+
 In this activity, creating the legend was tricky. This required updating the css as well as the javascript code. 
 
 ## CSS:

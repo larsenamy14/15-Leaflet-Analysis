@@ -5,13 +5,13 @@
 In this activity, creating the legend was tricky. This required updating the css as well as the javascript code. 
 
 ## CSS:
-#.legend {
+.legend {
     padding: 5px;
     color: #555;
     background-color: #fff;
 }
 
-#.legend i {
+.legend i {
     float: left;
     width: 10px;
     height: 10px;
@@ -20,7 +20,7 @@ In this activity, creating the legend was tricky. This required updating the css
 
 ## Javascript
 // Create legend for map
-#let legend = L.control({position: 'bottomright'});
+let legend = L.control({position: 'bottomright'});
   legend.onAdd = function () {
     let div = L.DomUtil.create('div', 'info legend');
     let depths = [0, 10, 20, 30, 40, 50];
